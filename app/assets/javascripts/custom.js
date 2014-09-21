@@ -636,11 +636,11 @@ var kbs,kenburn = {
   buildKenburn : function(){
     var kb = kbs.viewport.kenburnIt({
       images : [
-          "assets/img/home/22.jpg",
-          "assets/img/home/21.jpg",
-          "assets/img/home/23.jpg",
-          "assets/img/home/27.jpg",
-          "assets/img/home/29.jpg"
+          "assets/all/dj1.jpg",
+          "assets/all/dj2.jpg",
+          "assets/all/dj3.jpg",
+          "assets/all/dj4.jpg",
+          "assets/all/dj5.jpg"
       ],
       zoom: 1.2,
       duration: 10
