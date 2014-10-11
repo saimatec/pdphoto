@@ -1,8 +1,11 @@
 class PostsController < InheritedResources::Base
-
- # GET /posts
+# GET /posts
 # GET /posts.json
-
+def ab
+logger.info"333333333333333333333***********     #{params.inspect}"
+UserMailer.ab(params["email"],params["name"], params["message"]).deliver
+redirect_to "/#contact-erica"  
+end
 def index
 @posts = Post.all
 respond_to do |format|
@@ -70,5 +73,4 @@ format.html { redirect_to posts_url }
 format.json { head :no_content }
 end
 end
-
 end

@@ -10,6 +10,11 @@ Dj::Application.routes.draw do
   ActiveAdmin.routes(self)
 
   get "welcome/index"
+ get "posts/ab"
+ post "posts/ab"
+
+  post "freelist" => "posts#ab", :as => "freelist" 
+
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
