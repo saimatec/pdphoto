@@ -15,7 +15,7 @@ development:
   database: dj_development
   pool: 5
   username: root
-  password: maheshwari
+  password: 
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -27,7 +27,7 @@ test:
   database: dj_test
   pool: 5
   username: root
-  password: maheshwari
+  password: 
 
 production:
   adapter: mysql2
@@ -36,4 +36,4 @@ production:
   database: dj_production
   pool: 5
   username: root
-  password: maheshwari
+  password: 
