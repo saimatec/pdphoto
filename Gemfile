@@ -27,7 +27,6 @@ gem "twitter-bootstrap-rails"
 
 gem "less-rails-fontawesome"
 
-gem "jquery-ui-rails"
 
 gem 'activeadmin'
 
