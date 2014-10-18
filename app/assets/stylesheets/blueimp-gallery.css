@@ -90,7 +90,7 @@
           transition: opacity 0.5s linear;
 }
 .blueimp-gallery > .slides > .slide-loading {
-  background: url(../../img/blueimp-gallery/loading.gif) center no-repeat;
+  background: url(/assets/loading.gif) center no-repeat;
   background-size: 64px 64px;
 }
 .blueimp-gallery > .slides > .slide-loading > .slide-content {
@@ -155,7 +155,7 @@
   bottom: 0px;
   width: 60px;
   height: 60px;
-  background: url(../../img/blueimp-gallery/play-pause.png) 0 0 no-repeat;
+  background: url(/assets/play-pause.png) 0 0 no-repeat;
   background-color: #000;
   cursor: pointer;
   opacity: 0.7;
@@ -231,7 +231,7 @@
 }
 
 .blueimp-gallery > .slides {
-  cursor: url(../../img/drag.png),move;
+  cursor: url(/assets/drag.png),move;
 }
 
 /* Replace PNGs with SVGs for capable browsers (excluding IE<9) */
