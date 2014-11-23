@@ -172,7 +172,7 @@ img[src*="loading.gif"] {
 	height: 95%;
 	margin-top: 1%;
 	margin-left: 10%;
-	cursor: url('../img/close-cursor.png'),move;
+	cursor: url('/assets/close-cursor.png'),move;
 }
 .ui-video-background{
 	display:none;
@@ -208,7 +208,7 @@ img[src*="loading.gif"] {
 }
 
 .loading{
-	background: url(../img/blueimp-gallery/loading.gif) center no-repeat;
+	background: url('/assets/loading.gif') center no-repeat;
   	background-size: 64px 64px;
   	width: 70px;
 	height: 70px;
@@ -225,7 +225,7 @@ img[src*="loading.gif"] {
 	right:15px;
 	width:30px;
 	height: 30px;
-	background-image: url(../img/close-cursor.png);
+	background-image: url('/assets/close-cursor.png');
 	background-repeat: no-repeat;
 	cursor: pointer;
 	opacity: 0.5;
@@ -598,7 +598,7 @@ ul#socialicons li:focus a, ul.socialicons li:focus a {
 	width: 30px;
 	height: 30px;
 	text-align: center;
-	background-image: url(../img/close-cursor.png);
+	background-image: url('/assets/close-cursor.png');
 	background-size: contain;
 	background-repeat: no-repeat;
 	cursor: pointer;
