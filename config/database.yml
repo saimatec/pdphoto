@@ -33,7 +33,7 @@ production:
 adapter: postgresql
 encoding: unicode
 host: localhost
-database: cnh_production
+database: pdphoto_database
 pool: 5
-username:
-password: 
+username: pdphoto_user
+password: Password19
